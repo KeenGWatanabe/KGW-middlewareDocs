@@ -1,0 +1,4 @@
+next('route') for app.METHOD(), router.METHOD()
+To skip the rest of the middleware functions from a router middleware stack, call next('route') to pass control to the next route. NOTE: next('route') will work only in middleware functions that were loaded by using the app.METHOD() or router.METHOD() functions.
+
+[e.g.](<file:///E:/KGW-middlewareDocs/middleware/app-http.js>)

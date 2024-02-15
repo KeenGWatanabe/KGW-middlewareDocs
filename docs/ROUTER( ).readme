@@ -1,0 +1,4 @@
+Router-level middleware works in the same way as application-level middleware, except it is bound to an instance of express.Router().
+Load router-level middleware by using the router.use() and router.METHOD() functions.
+
+[e.g.](<file:///E:/KGW-middlewareDocs/middleware/app-router.js>)
